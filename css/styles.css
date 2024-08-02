@@ -4,6 +4,11 @@
 	--green-color: #676770;
 	--servisess-bg: #192024;
 	--servisess-text-color: #e8e8e8;
+	--button-bg: #2e80b6;
+	--button2-bg: #92a0ad;
+	--black-color: #000;
+	--footer-bg: #383838;
+	--line-height: 1.8;
 }
 
 @font-face {
@@ -28,6 +33,13 @@ html {
 * :focus {
 	outline: 2px dotted #ff7500;
 	outline-offset: 3px;
+}
+
+body {
+	font-family: 'OpenSans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: var(--line-height);
 }
 
 .container {
